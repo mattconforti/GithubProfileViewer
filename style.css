@@ -1,0 +1,65 @@
+#leftside, #rightside {
+  float: left;
+  width: 49%;
+  height: 700px;
+}
+
+#leftside {
+  border-right: 2px solid grey;
+  /* align this separator to be more in the middle
+     (there is more space on the right side than the left)
+  */
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-top: 225px;
+  margin-left: 22%;
+}
+
+#in1 {
+  padding-left: 2px;
+  font-size: 1em;
+}
+
+#b1 {
+  font-size: 1em;
+}
+
+#inputdiv {
+  float: left;
+  width: 250px;
+  margin-left: 30%;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+ul {
+  padding: 0;
+  margin-left: -25px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;  /* takes off bullets */
+  overflow: hidden;  /* hide some of the list items if they flow out of the box */
+  /* reason for this -- cant possibly fit every single follower in this small area.
+     can make a bigger area to display followers in the future
+  */
+}
+
+li img {  /* img inside a list item */
+  width: 20px;
+  margin: 5px;
+}
+
+#profileDisplay {
+  margin-left: 110px;
+}
+
+#username, #realname, #location, #bio, #followers {
+  font-size: 1.25em;
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 3px;
+}
